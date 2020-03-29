@@ -1,5 +1,4 @@
-# image_classifier_with_few_training_examples
-
+# Image Classifier With Few Training Examples
 
 In this notebook, we build an image classifier using only very few training examples (~1000 images per class). In particular, we define our model by attaching a new classifier (randomly initialized) on the pre-trained convolutional base of the InceptionV3 network. This model is then trained on images with real-time augmentations (e.g. rotation, shear, zoom, width and height shifts, horizontal flip). In addition, we make prediction using this model with a technique called test-time augmentation (TTA); that is, given an input image, our model makes predictions on multiple augmented copies of that image and return an ensemble prediction via soft voting. We train our model on the Food-101 dataset (https://kuanghuei.github.io/Food-101N/). The Food-101 dataset is designed for learning to address label noise with minimum human supervision (Lee, 2018), but we use it here because it is a dataset with very few instances for each class (~1000 images per class). It is made up of 101 food categories with 101000 images where each image has been rescaled to have a maximum side length of 512 pixels.
 
