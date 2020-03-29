@@ -13,3 +13,5 @@ We begin by investigating how to effectively train our model. For the sake of lo
 We evaluate each of these ways of training on the test set. We selet the one with the highest accuracy and use it to train a model using all 101 classes. Between InceptionV3 and VGG16, we find that using the convolutional base of InceptionV3, unfreezing it entirely and re-training it yields a model with the highest accuracy. With this approach trained on the entire dataset, our model achieves 80.8% accuracy on the test set. With test-time augmentation, this accuracy increases to 83.2%.
 
 [Click here](https://github.com/faerlinpulido/image_classifier_with_few_training_examples/blob/master/notebook.ipynb) to go directly to the project's python notebook. 
+
+By Faerlin Pulido
