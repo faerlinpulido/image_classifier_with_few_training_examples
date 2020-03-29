@@ -15,3 +15,10 @@ We evaluate each of these ways of training on the test set. We selet the one wit
 [Click here](https://github.com/faerlinpulido/image_classifier_with_few_training_examples/blob/master/notebook.ipynb) to go directly to the project's python notebook. 
 
 By Faerlin Pulido
+
+__References__
+
+1. Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc, "Food-101 -- Mining Discriminative Components with Random Forests", European Conference on Computer Vision, 2014
+2. Lee, Jungkyu and Won, Taeryun and Lee, Tae Kwan and Lee, Hyemin and Gu, Geonmo and Hong, Kiho, "Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network", 2020
+3. Lee, Kuang-Huei and He, Xiaodong and Zhang, Lei and Yang, Linjun, "CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise", 2018
+4. Keskar, Nitish and Mudigere, Dheevatsa and Nocedal, Jorge and Smelyanskiy, Mikhail and Tang, Ping, "On Large-Batch Training For Deep Learning: Generalization Gap and Sharp Minima", ICLR, 2017.
